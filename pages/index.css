@@ -1,0 +1,28 @@
+/*reseteo los estilos del navegador, xq toma el default que da el navegador*/ 
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.header {
+    background-color: pink;
+    color: white;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: auto; /*CALCULA SEGUN LAS OTRAS MEDIDAS*/
+    margin-right: auto;
+}
+.logo {
+    text-transform: uppercase; /*PARA VOLVER TODO EN MAYUSCULA*/
+}
+.logo a{/*PARA LOS HIJOS DE LOGO*/
+    color:white;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color: beige;
+}
