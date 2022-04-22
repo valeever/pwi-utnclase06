@@ -21,7 +21,6 @@ html{
 .logo a{/*PARA LOS HIJOS DE LOGO*/
     color:white;
     text-decoration: none;
-
 }
 .navbar{
     background-color: beige;
@@ -49,4 +48,52 @@ html{
     /*CUANDO EL USUARIO PASA POR ARRIBA DE LAS PALABRAS, VA A HACER*/
     background: white;
     color:pink;
+}
+.banner-top{
+    padding: 20px; /*SEPARA POR 20PX*/
+    display: flex; 
+    justify-content: center; /*LO ACOMODA AL CENTRO*/
+
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex; /*ACOMODA LA DISTANCIA ENTRE IMAGENES SOLO, PARA QUE TENGAN EL MISMO ENTRE ELLOS, lo tiene que tener le contenedor PADRE para que los acomode a todos*/
+    justify-content: space-around;
+
+}
+.body{/*al leer desde arriba a abajo, este color va a dejar de estar en algunos lados, aunque este dentro de BODY */
+    background-color: rgb(196, 196, 196);
+}
+
+#contenedor img{
+    width: 100%;
+}
+.primero{
+    padding: 2%;
+}
+.segundo{
+    padding: 2%;
+}
+.tercero{
+    padding: 2%;
+}
+.footer{
+    margin-top: 25px;/*que se separe de las noticias de arriba*/
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+.data{
+    color: black;
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding: 1%;
+}
+.map{
+    margin-top: 10px;
+    width: 60%;
 }

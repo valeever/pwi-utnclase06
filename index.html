@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="./pages/index.css"> <!-- PARA INCLUIR EL CSS -->
     <title>:: Clase 07 ::</title>
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="logo"> 
             <a href="/" class="link-logo">
                 <h1>
-                    TE AMO
+                    UTN
                 </h1>
             </a>
         </div>
@@ -26,5 +26,71 @@
             <li><a href="./paginas/contactos.html">CONTACTOS</a></li>                                      
         </ul>
     </nav>
+
+    <aside class="banner-top">
+        <a href="https://sceu.frba.utn.edu.ar/" target="_blank"> <!-- LA PAGINA QUE VA A ABRIR CUANDO TOQUE LA IMAGEN / TARGET, SI ES BLANK ES PARA QUE NO SE ABRA EN LA MISMA PESTAÑA, SINO UNA NUEVA-->
+            <img src="./imagenes/doc.jpg" alt="Logo de la UTN-BA"> <!-- LA IMAGEN EN NUESTRA CARPETA, Y ALT LO QUE APARECE SI LA IMAGEN NO SE VE-->
+        </a>
+    </aside>
+
+    <main>
+        <section id="contenedor">
+            <article class="primero">
+                <figure>
+                    <a href="./paginas/masnoticias.html">
+                        <img src="./imagenes/img1.jpg" alt="Noticia 1">
+                    </figure>
+                    </a>
+                <div class="texto">
+                    <a href="./paginas/masnoticias.html">
+                        <h2>Título de la noticia 1</h2>
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam quos architecto voluptate deserunt quidem consequuntur culpa? Recusandae ipsam consectetur soluta aliquid minima minus earum dicta, rerum nam necessitatibus asperiores.
+                    </p>
+                    <a href="./paginas/masnoticias.html">Leer más...</a>
+                </div>
+            </article>
+
+            <article class="segundo">
+                <figure>
+                    <img src="./imagenes/img2.png" alt="Noticia 2">
+                </figure>
+                <div class="texto">
+                    <h2>Título de la noticia 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam quos architecto voluptate deserunt quidem consequuntur culpa? Recusandae ipsam consectetur soluta aliquid minima minus earum dicta, rerum nam necessitatibus asperiores.
+                    </p>
+                    <a href="./paginas/masnoticias.html">Leer más...</a>
+                </div>
+            </article>
+
+            <article class="tercero">
+                <figure>
+                    <img src="./imagenes/doc2.webp" alt="Noticia 3">
+                </figure>
+                <div class="texto">
+                    <h2>Título de la noticia 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam quos architecto voluptate deserunt quidem consequuntur culpa? Recusandae ipsam consectetur soluta aliquid minima minus earum dicta, rerum nam necessitatibus asperiores.
+                    </p>
+                    <a href="./paginas/masnoticias.html">Leer más...</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <div class="data">
+            <ul>
+                <li>Avenida Mi Calle 123</li>
+                <li>Teléfono: <a href="Tel:123456789">123456789</a></li>
+                <li>Mail: <a href="mailto:hola@gmail.com">hola@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="map">
+            <!--FIJARSE COMO PONER LA DIRECCION EN OTRAS PAGINAS-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3377.391611263807!2d-64.09733818524738!3d-32.166712981160586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d-32.1667221!2d-64.0944736!5e0!3m2!1ses!2sar!4v1648773121261!5m2!1ses!2sar" width="300" height="75" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
 </body>
 </html>
